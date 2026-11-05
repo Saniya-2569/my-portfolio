@@ -1,15 +1,22 @@
-# Portfolio & Project Showcase
+# Retro Arcade Snake Game 🐍🎮
 
-Welcome to my project showcase repository.
+A responsive 2D Retro Arcade Snake Game built with vanilla JavaScript & HTML5 Canvas.
 
-## Overview
-This repository contains personal projects, web components, and exploratory algorithms in machine learning and web engineering.
+## 🚀 Features
+- **Classic Gameplay**: Navigate the snake to eat food and grow longer without crashing into walls or yourself.
+- **Score Tracking**: Dynamic score and high-score tracking.
+- **Responsive Canvas**: Fits smoothly across desktop and mobile screens.
+- **Retro Visuals & Controls**: Nostalgic 8-bit style design and fluid keyboard controls.
 
-### Focus Areas
-- **Machine Learning & AI:** Predictive modeling, data classification, computer vision.
-- **Web Technologies:** Responsive frontend design, REST APIs.
-- **Embedded Hardware:** Microcontroller integration, IoT telemetry, and alert systems.
+## 🕹️ Controls
+- **Arrow Keys** / **WASD**: Move Up, Down, Left, Right
+- **Spacebar**: Pause / Resume Game
+- **R**: Restart Game
 
-### Featured Projects
-- **SkillSphere:** Modern educational portal built with modular frontend architecture and backend APIs.
-- **SeizureGuard:** IoT wearable monitoring device utilizing sensors for event detection and instant alert routing.
+## 🛠️ Tech Stack
+- **HTML5 Canvas**: Rendering 2D graphics
+- **Vanilla JavaScript (ES6+)**: Game loop, collision detection, and score management
+- **CSS3**: Retro styling and responsive layout
+
+## 🔗 Live Demo
+Play the game online: [Live Demo](https://saniya-2569.github.io/my-portfolio/)
