@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0b1120; color: #f8fafc; padding: 40px 20px; display: flex; justify-content: center; }
+    .container { max-width: 750px; width: 100%; }
+    header { border-bottom: 1px solid #1e293b; padding-bottom: 24px; margin-bottom: 24px; }
+    h1 { font-size: 2.2rem; color: #38bdf8; margin-bottom: 8px; }
+    p.subtitle { font-size: 1.1rem; color: #94a3b8; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 22px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+    h2 { font-size: 1.3rem; margin-bottom: 12px; color: #e2e8f0; }
+    .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .badge { background: #0284c7; color: white; padding: 6px 12px; border-radius: 9999px; font-size: 0.85rem; font-weight: 500; }
+    ul { list-style: none; }
+    li { margin-bottom: 12px; line-height: 1.5; color: #cbd5e1; }
+    li strong { color: #38bdf8; }
+    button { background: #38bdf8; color: #0b1120; border: none; padding: 10px 18px; border-radius: 6px; font-weight: 600; cursor: pointer; margin-top: 10px; transition: 0.2s; }
+    button:hover { background: #0284c7; color: white; }
+    #demo-output { margin-top: 12px; font-family: monospace; color: #a5f3fc; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Portfolio & Project Showcase</h1>
+      <p class="subtitle">AI & ML Undergraduate | Full-Stack & Embedded Systems Developer</p>
+    </header>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Passionate about building scalable applications, combining predictive machine learning models with accessible frontend experiences and microcontroller hardware integrations.</p>
+    </div>
+
+    <div class="card">
+      <h2>Tech Stack</h2>
+      <div class="badges">
+        <span class="badge">Python</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">C / C++</span>
+        <span class="badge">Node.js</span>
+        <span class="badge">HTML5 / CSS3</span>
+        <span class="badge">Machine Learning</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Featured Works</h2>
+      <ul>
+        <li><strong>SkillSphere:</strong> Full-stack web learning platform with real-time dynamic components.</li>
+        <li><strong>SeizureGuard:</strong> Wearable smart health monitoring device utilizing real-time sensor processing and alert modules.</li>
+      </ul>
+      <button onclick="runDemo()">Run Live Interactive Check</button>
+      <div id="demo-output"></div>
+    </div>
+  </div>
+
+  <script>
+    function runDemo() {
+      const output = document.getElementById('demo-output');
+      output.innerText = "System Status: Online | Modules Verified | Ready for deployment.";
+    }
+  </script>
+</body>
+</html>
